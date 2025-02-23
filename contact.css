@@ -1,0 +1,157 @@
+
+header {
+    background: rgb(114, 37, 148);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; 
+    height: auto;
+    display: block;
+    margin-left: 10px;
+   
+   
+}
+
+nav {
+    flex-grow: 1; 
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    color: yellow;
+    text-shadow: #333;
+    font-weight: 500;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/makeup4.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.container1 {
+    max-width: 800px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.contact-info, .contact-form {
+    float: left;
+    width: 48%;
+    margin-bottom: 20px;
+}
+.contact-info h2, .contact-form h2 {
+    margin-top: 0;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    background-color:  rgb(65, 64, 64);
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+    margin-bottom: 10px;
+}
+.footer-links ul:hover{
+    color: #333;
+}
+
+.footer-links a,
+.footer-social a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-text a {
+    color: white;
+}
+.footer-text ul li:hover{
+    color: grey;
+}
+.footer-links h3{
+    color:white;
+}
+.footer-links h3:hover{
+    color:grey;
+}
+.footer-social h3{
+    color: white;
+}
+.footer-logo p{
+    color: white;
+}
+
+
+
